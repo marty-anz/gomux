@@ -16,4 +16,3 @@ Create a http server. The server handles `/health` and returns `{"status": "ok"}
 - (`NewServeMux`)[https://pkg.go.dev/net/http#NewServeMux]
 - (`ServeMux`)[https://pkg.go.dev/net/http#ServeMux]
 - (`HandleFunc`)[https://pkg.go.dev/net/http#ServeMux.HandleFunc] 
-
