@@ -1,4 +1,5 @@
 # gomux
+
 A series of exercises to demonstrate how to build a http service using http.ServeMux
 
 - Fork the repo
@@ -37,3 +38,11 @@ available when serving each request.
 
 - (Handler)[https://pkg.go.dev/net/http#Handler]
 - (Handle)[https://pkg.go.dev/net/http#ServeMux.Handle]
+
+## Exercise 3 - HTTP methods and error response
+
+Only accept http get method on `/health` and return 401 for other http methods.
+
+### Reading
+
+- (HTTPResponseWriter)[https://pkg.go.dev/net/http#ResponseWriter]
