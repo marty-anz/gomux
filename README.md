@@ -13,9 +13,9 @@ Create a http server. The server handles `/health` and returns `{"status": "ok"}
 
 ### Reading
 
-- (`NewServeMux`)[https://pkg.go.dev/net/http#NewServeMux]
-- (`ServeMux`)[https://pkg.go.dev/net/http#ServeMux]
-- (`HandleFunc`)[https://pkg.go.dev/net/http#ServeMux.HandleFunc] 
+- [`NewServeMux`](https://pkg.go.dev/net/http#NewServeMux)
+- [`ServeMux`](https://pkg.go.dev/net/http#ServeMux)
+- [`HandleFunc`](https://pkg.go.dev/net/http#ServeMux.HandleFunc) 
 
 ## Exercise 2 - inject the server starting time to the health response
 
@@ -36,8 +36,8 @@ available when serving each request.
 
 ### Reading
 
-- (Handler)[https://pkg.go.dev/net/http#Handler]
-- (Handle)[https://pkg.go.dev/net/http#ServeMux.Handle]
+- [Handler](https://pkg.go.dev/net/http#Handler)
+- [Handle](https://pkg.go.dev/net/http#ServeMux.Handle)
 
 ## Exercise 3 - HTTP methods and error response
 
@@ -45,4 +45,5 @@ Only accept http get method on `/health` and return 401 for other http methods.
 
 ### Reading
 
-- (HTTPResponseWriter)[https://pkg.go.dev/net/http#ResponseWriter]
+- [HTTPResponseWriter](https://pkg.go.dev/net/http#ResponseWriter)
+
